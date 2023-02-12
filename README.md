@@ -1,4 +1,4 @@
-# RX11
+# RX11 V1
 The LuaU version of DX11
  
 # Documentation
@@ -25,3 +25,5 @@ for i, object in pairs(rx11.DX11_RENDERED) do   -- Loop through the RX11_RENDERE
     end
 end
 ```
+
+More will be added to RX11, this is only a small project.
