@@ -33,7 +33,7 @@ function RX11:draw_string(string_content, int_x, int_y, color3_color)
     RX11_STRING.Visible = true
     RX11_STRING.Center = false
     RX11_STRING.Outline = false
-    RX11_STRING.Size = 17
+    RX11_STRING.Size = 19
     RX11_STRING.Font = 0
     RX11_STRING.Text = string_content
     RX11_STRING.Position = Vector2.new(int_x, int_y)
@@ -48,7 +48,7 @@ function RX11:draw_string_outline(string_content, int_x, int_y, color3_color, co
     RX11_STRING_OUTLINE.Visible = true
     RX11_STRING_OUTLINE.Center = false
     RX11_STRING_OUTLINE.Outline = true
-    RX11_STRING_OUTLINE.Size = 17
+    RX11_STRING_OUTLINE.Size = 19
     RX11_STRING_OUTLINE.Font = 0
     RX11_STRING_OUTLINE.Text = string_content
     RX11_STRING_OUTLINE.OutlineColor = color3_outline_color
@@ -64,7 +64,7 @@ function RX11:draw_string_centered(string_content, int_x, int_y, color3_color)
     RX11_STRING_CENTERED.Visible = true
     RX11_STRING_CENTERED.Center = true
     RX11_STRING_CENTERED.Outline = false
-    RX11_STRING_CENTERED.Size = 17
+    RX11_STRING_CENTERED.Size = 19
     RX11_STRING_CENTERED.Font = 0
     RX11_STRING_CENTERED.Text = string_content
     RX11_STRING_CENTERED.Position = Vector2.new(int_x, int_y)
